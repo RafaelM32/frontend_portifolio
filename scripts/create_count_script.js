@@ -26,7 +26,7 @@ function verifyEmpty(){
 function sendData(){
     if(verifyEmpty())
         {
-        fetch("http://127.0.0.1:5000/create_account",{method: "POST",
+        fetch("https://apiportifolio-raphaelmenezesvill.b4a.run/create_account",{method: "POST",
                                                       headers: {"Content-Type": "application/json"},
                                                       body: JSON.stringify({"name" : user_name.value,
                                                                             "email": user_email.value,

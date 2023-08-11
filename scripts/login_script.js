@@ -38,8 +38,8 @@ function loginVerification(resp){
 
 function loginRequest(){
     if(verifyEmpty()){
-        fetch("http://127.0.0.1:5000/login", {method: "POST",
-                                              headers: {"Content-Type": "application/json"},
+        fetch("https://apiportifolio-raphaelmenezesvill.b4a.run/login", {method: "POST",
+                                              headers: {"Content-Type": "application/json", "origin": "helo"},
                                               body: JSON.stringify({ "email": email.value,
                                                                      "password": password.value})})
         .then((res) => res.json())
