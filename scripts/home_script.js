@@ -30,7 +30,7 @@ function make_Project(project){
 
     for(i in project["tecnologiesimg"]){
         const img = document.createElement("img")
-        img.src = "../frontend_portifolio/"+project["tecnologiesimg"][i]
+        img.src = "../"+project["tecnologiesimg"][i]
         div_icons.appendChild(img)
     }
     div_project.appendChild(background_img)
