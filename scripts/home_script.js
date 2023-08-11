@@ -24,9 +24,9 @@ function make_Project(project){
     div_icons.id = "icon-tecnologies"
 
     background_img.id = "project-img"
-    background_img.src = "../frontend_portifolio/"+project["backgroundimg"]
+    background_img.src = "../"+project["backgroundimg"]
 
-    a.href = "../frontend_portifolio/"+project["href"]
+    a.href = "../"+project["href"]
 
     for(i in project["tecnologiesimg"]){
         const img = document.createElement("img")
