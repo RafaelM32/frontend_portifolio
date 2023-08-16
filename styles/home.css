@@ -200,11 +200,13 @@ h2{
 }
 
 ::-webkit-scrollbar{
+    width: 0;
     visibility: hidden;
     background-color: #e7d7c1;
 }
 
 ::-webkit-scrollbar-thumb{
+    width: 0;
     visibility: hidden;
     background-color: #e0607e;
 }
