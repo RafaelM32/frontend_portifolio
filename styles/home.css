@@ -2,8 +2,9 @@ body{
     background-color: #e7d7c1;
     border: dashed #50514f 18px;
     max-width: 1920px;
+    min-width: 1300px;
     margin: 0%;
-    height: 96vh;
+    height: 100%;
 }
 
 #wrapper{
@@ -199,9 +200,11 @@ h2{
 }
 
 ::-webkit-scrollbar{
+    visibility: hidden;
     background-color: #e7d7c1;
 }
 
 ::-webkit-scrollbar-thumb{
+    visibility: hidden;
     background-color: #e0607e;
 }
