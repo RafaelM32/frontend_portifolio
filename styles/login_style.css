@@ -1,9 +1,11 @@
+body{
+    background-color: #e7d7c1;
+}
+
 #wraper{
     display: grid;
     grid-template-rows: 10% 90%;
     min-width: 600px;
-    background-color: #e7d7c1;
-    padding-bottom: 21.6%;
     margin-left: -1%;
     margin-top: -1%;
 
