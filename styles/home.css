@@ -1,7 +1,25 @@
+
+
+
+@media (orientation: landscape){
+#contats{
+    text-align: right;
+    margin-left: 69%;
+    margin-top: -3%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    
+}
+
+.hide{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
 body{
     background-color: #e7d7c1;
     border: dashed #50514f 18px;
-    max-width: 1920px;
     min-width: 1300px;
     margin: 0%;
     height: 100%;
@@ -12,8 +30,153 @@ body{
     display: grid;
     grid-template-columns: 49% 51%;
     min-width: 1300px;
+    margin: 0.4%;
+}
+
+#foto-wrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-right: dashed #50514f 18px;
+    border-bottom: dashed #50514f 18px;
+}
+
+#about-me-wrap{
+    display: grid;
+    overflow: auto;
+    border-right: dashed #50514f 18px;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    height: 43%;
+}
+
+#name{
+    margin-top: 2%;
+    font-size: 10ch;
+    margin-right: 10%;
+}
+#job{
+    margin-top: -2%;
+    font-size: 5ch;
+    margin-right: 10%;
+}
+#perfil-img{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 30%;
+    border-radius: 50%;
+    width: 70%;
+}
+
+#projects-wrap{
+    display: auto;
+    position: relative;
+
+}
+#job_img{
+    width: 0;
+    height: 0;
+}
+#name_img{
+    width: 0;
+    height: 0;
+
+}
+#contats_img{
+    width: 0;
+    height: 0;
+}
+#work_img{
+    margin-bottom: -13%;
+}
+}
+
+@media (orientation: portrait){
+
+.landscape{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#projects-wrap{
+    border-top: dashed #50514f 18px;
+    display: auto;
+    position: relative;
+
+}
+
+#perfil-img{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 30%;
+    border-radius: 50%;
+    width: 70%;
+}
+
+#contats_img{
+    font-size: 2ch;
+}
+
+#job{
+    margin-top: -2%;
+    font-size: 3ch;
+    margin-right: 10%;
+}
+
+#work_img{
+    text-align: right;
+}
+
+#job_img{
+    font-size: 3ch;
+}
+#name_img{
+    font-size: 4ch;
+}
+
+#name{
+    margin-top: 2%;
+    font-size: 5ch;
+    margin-right: 10%;
+}
+
+#contats{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -3%;
+    margin-bottom: 5%;
+    
+}
+
+body{
+    background-color: #e7d7c1;
+    border: dashed #50514f 18px;
+    max-width: 1920px;
+    margin: 0%;
+}
+#wrapper{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
     margin: -0.4%;
 }
+
+#foto-wrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: dashed #50514f 18px;
+}
+
+#about-me-wrap{
+    display: grid;
+    overflow: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 50vh;
+}
+
+}
+
 #alert{
     text-align: center;
     z-index: 1;
@@ -36,71 +199,35 @@ body{
     background-color: #e0607e;
 }
 
-#foto-wrap{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    border-right: dashed #50514f 18px;
-    border-bottom: dashed #50514f 18px;
-}
+
 
 #right-wrap{
     text-align: right;
 }
 
-#contats{
-    text-align: right;
-    margin-left: 69%;
-    margin-top: -3%;
-    margin-right: 20%;
-    margin-bottom: 5%;
-    
-}
+
 
 
 #contat-wrap{
     border-bottom: dashed #50514f 18px;
 }
 
-#name{
-    margin-top: 2%;
-    font-size: 10ch;
-    margin-right: 10%;
-}
-h1{
-    margin: 0%;
-    font-size: 10ch;
-}
 
-#job{
-    margin-top: -2%;
-    font-size: 5ch;
-    margin-right: 10%;
-}
+
+
+
 
 #my-information{
     text-align: justify;
     font-size: 2.5ch;
-    margin-top: 4.5%;
+    margin-top: 4%;
     margin-right: 5%;
     margin-left: 5%;
 }
 
-#about-me-wrap{
-    display: grid;
-    overflow: auto;
-    border-right: dashed #50514f 18px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    height: 50vh;
-}
 
-#perfil-img{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 30%;
-    border-radius: 50%;
-    width: 70%;
-}
+
+
 
 #skils{
     margin-top: 25%;
@@ -145,10 +272,8 @@ strong{
     visibility: hidden;
 }
 
-#projects-wrap{
-    display: auto;
-    position: relative;
-
+h1{
+    font-size: 10ch;
 }
 
 h2{
