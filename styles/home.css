@@ -46,7 +46,7 @@ body{
     border-right: dashed #50514f 18px;
     margin-top: 0%;
     margin-bottom: 1%;
-    height: 43%;
+    height: 50%;
 }
 
 #name{
@@ -61,7 +61,7 @@ body{
 }
 #perfil-img{
     margin-top: 10%;
-    margin-bottom: 0%;
+    margin-bottom: 21%;
     margin-left: 30%;
     border-radius: 50%;
     width: 70%;
@@ -86,7 +86,7 @@ body{
     height: 0;
 }
 #work_img{
-    margin-bottom: -13%;
+    margin-bottom: -18%;
 }
 #my-information{
     text-align: justify;
@@ -137,7 +137,8 @@ body{
 }
 
 #work_img{
-    text-align: right;
+    text-align: center;
+    border-bottom: dashed #50514f 18px;
 }
 
 #job_img{
@@ -185,7 +186,6 @@ body{
     overflow: auto;
     margin-top: 1%;
     margin-bottom: 1%;
-    height: 50vh;
 }
 
 }
