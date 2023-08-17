@@ -88,10 +88,23 @@ body{
 #work_img{
     margin-bottom: -13%;
 }
+#my-information{
+    text-align: justify;
+    font-size: 2.5ch;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
 }
 
 @media (orientation: portrait){
-
+#my-information{
+    text-align: justify;
+    font-size: 1ch;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
 .landscape{
     visibility: hidden;
     width: 0;
@@ -217,13 +230,7 @@ body{
 
 
 
-#my-information{
-    text-align: justify;
-    font-size: 2.5ch;
-    margin-top: 4%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
+
 
 
 
