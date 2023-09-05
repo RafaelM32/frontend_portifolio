@@ -123,7 +123,7 @@ body{
 @media (orientation: portrait){
 
 h1{
-    font-size: 5ch;
+    font-size: 3ch;
 }
 
 #inside-alert{
@@ -133,12 +133,12 @@ h1{
     color: #56a3a6;
 }
 #contat-wrap{
-    border-bottom: dashed #50514f 15px;
+    border-bottom: dashed #50514f 10px;
 }
 #skils{
     margin-top: 25%;
     margin-left: 15%;
-    font-size: 2ch;
+    font-size: 1ch;
 }
 
 #my-information{
@@ -181,7 +181,7 @@ h1{
 
 #work_img{
     text-align: center;
-    border-bottom: dashed #50514f 15px;
+    border-bottom: dashed #50514f 10px;
 }
 
 #job_img{
@@ -207,7 +207,7 @@ h1{
 
 body{
     background-color: #e7d7c1;
-    border: dashed #50514f 15px;
+    border: dashed #50514f 10px;
     max-width: 1920px;
     margin: 0%;
     min-width: 350px;
@@ -222,7 +222,7 @@ body{
 #foto-wrap{
     display: grid;
     grid-template-columns: 50% 50%;
-    border-bottom: dashed #50514f 15px;
+    border-bottom: dashed #50514f 10px;
 }
 
 #about-me-wrap{
@@ -322,7 +322,7 @@ h2{
 #title{
     display: grid;
     text-align: center;
-    border-bottom: dashed #50514f 15px;
+    border-bottom: dashed #50514f 10px;
 }
 #projects{
     display: grid;
