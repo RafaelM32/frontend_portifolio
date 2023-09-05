@@ -2,6 +2,19 @@
 
 
 @media (orientation: landscape){
+
+h1{
+    font-size: 10ch;
+}
+
+
+#inside-alert{
+    text-align: right;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    color: #56a3a6;
+}
+
 #skils{
     margin-top: 25%;
     margin-left: 15%;
@@ -108,6 +121,17 @@ body{
 }
 
 @media (orientation: portrait){
+
+h1{
+    font-size: 5ch;
+}
+
+#inside-alert{
+    text-align: right;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    color: #56a3a6;
+}
 #contat-wrap{
     border-bottom: dashed #50514f 15px;
 }
@@ -218,12 +242,7 @@ body{
     margin-top: 17%;
     
 }
-#inside-alert{
-    text-align: right;
-    display: grid;
-    grid-template-columns: 65% 35%;
-    color: #56a3a6;
-}
+
 #button-div{
     text-align: left;
 }
@@ -293,9 +312,7 @@ strong{
     visibility: hidden;
 }
 
-h1{
-    font-size: 10ch;
-}
+
 
 h2{
     font-size: 5ch;
