@@ -181,7 +181,7 @@ h1{
     color: #56a3a6;
 }
 #contat-wrap{
-    border-bottom: dashed #50514f 10px;
+    border-bottom: dashed #50514f 5px;
 }
 #skils{
     margin-top: 25%;
@@ -203,7 +203,7 @@ h1{
 }
 
 #projects-wrap{
-    border-top: dashed #50514f 10px;
+    border-top: dashed #50514f 5px;
     display: auto;
     position: relative;
 
@@ -229,7 +229,7 @@ h1{
 
 #work_img{
     text-align: center;
-    border-bottom: dashed #50514f 10px;
+    border-bottom: dashed #50514f 5px;
 }
 
 #job_img{
@@ -255,7 +255,7 @@ h1{
 
 body{
     background-color: #e7d7c1;
-    border: dashed #50514f 10px;
+    border: dashed #50514f 5px;
     max-width: 1920px;
     margin: 0%;
     min-width: 350px;
@@ -270,7 +270,7 @@ body{
 #foto-wrap{
     display: grid;
     grid-template-columns: 50% 50%;
-    border-bottom: dashed #50514f 10px;
+    border-bottom: dashed #50514f 5px;
 }
 
 #about-me-wrap{
@@ -347,7 +347,7 @@ strong{
 #title{
     display: grid;
     text-align: center;
-    border-bottom: dashed #50514f 10px;
+    border-bottom: dashed #50514f 5px;
 }
 #projects{
     display: grid;
