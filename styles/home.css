@@ -118,10 +118,54 @@ body{
     margin-right: 5%;
     margin-left: 5%;
 }
+
+#python{
+    list-style-image: url(../img/python_ico.png);
+}
+#java{
+    list-style-image: url(../img/java_ico.png);
+}
+
+#css{
+    list-style-image: url(../img/css_ico.png);
+}
+
+#html{
+    list-style-image: url(../img/html_ico.png);
+}
+
+#javascript{
+    list-style-image: url(../img/javascript_ico.png);
+}
+
+#git{
+    list-style-image: url(../img/git_ico.png);
+}
 }
 
 @media (orientation: portrait){
+#python{
+    list-style-image: url(../img/python_ico_portrait.png);
+}
+#java{
+    list-style-image: url(../img/java_ico_portrait.png);
+}
 
+#css{
+    list-style-image: url(../img/css_ico_portrait.png);
+}
+
+#html{
+    list-style-image: url(../img/html_ico_portrait.png);
+}
+
+#javascript{
+    list-style-image: url(../img/javascript_ico_portrait.png);
+}
+
+#git{
+    list-style-image: url(../img/git_ico_portrait.png);
+}
 h1{
     font-size: 3ch;
 }
@@ -277,29 +321,6 @@ body{
 
 strong{
     color: #e0607e;
-}
-
-#python{
-    list-style-image: url(../img/python_ico.png);
-}
-#java{
-    list-style-image: url(../img/java_ico.png);
-}
-
-#css{
-    list-style-image: url(../img/css_ico.png);
-}
-
-#html{
-    list-style-image: url(../img/html_ico.png);
-}
-
-#javascript{
-    list-style-image: url(../img/javascript_ico.png);
-}
-
-#git{
-    list-style-image: url(../img/git_ico.png);
 }
 
 #skils_curricullum{
