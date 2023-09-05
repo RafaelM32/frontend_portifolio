@@ -2,12 +2,18 @@
 
 
 @media (orientation: landscape){
+#skils{
+    margin-top: 25%;
+    margin-left: 15%;
+    font-size: 3.6ch;
+}
+
 #contats{
-    text-align: right;
-    margin-left: 69%;
-    margin-top: -3%;
-    margin-right: 20%;
-    margin-bottom: 5%;
+text-align: right;
+margin-left: 69%;
+margin-top: -3%;
+margin-right: 20%;
+margin-bottom: 5%;
     
 }
 
@@ -98,6 +104,13 @@ body{
 }
 
 @media (orientation: portrait){
+
+#skils{
+    margin-top: 25%;
+    margin-left: 15%;
+    font-size: 2ch;
+}
+
 #my-information{
     text-align: justify;
     font-size: 1ch;
@@ -167,6 +180,7 @@ body{
     border: dashed #50514f 18px;
     max-width: 1920px;
     margin: 0%;
+    min-width: 350px;
 }
 #wrapper{
     position: relative;
@@ -236,11 +250,7 @@ body{
 
 
 
-#skils{
-    margin-top: 25%;
-    margin-left: 15%;
-    font-size: 3.6ch;
-}
+
 
 strong{
     color: #e0607e;
